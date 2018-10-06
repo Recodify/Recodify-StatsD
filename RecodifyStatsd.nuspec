@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.0.1</version>
+    <authors>Developers @ Collinson</authors>
+    <owners>Developers @ Collinson</owners>
+    <id>Collinson.Statsd</id>
+    <title>Collinson Statsd Client</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Collinson stats</description>
+    <copyright>Stuart Unsworth 2013-2014</copyright>
+    <tags>Metrics, Performance, Testing, Load</tags>
+    <projectUrl>http://collinson_statsd.git</projectUrl>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="StatsdCsharpClient" version="1.3.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\Collinson.Statsd\bin\Collinson.Statsd.dll" target="lib\net45" />
+    <file src="src\Collinson.Statsd\bin\StatsdClient.xml" target="lib\net45" />
+    <file src="src\Collinson.Statsd\bin\Collinson.Statsd.pdb" target="lib\net45" />
+  </files>
+</package>

@@ -1,0 +1,44 @@
+# Directories
+#######################
+_release/
+packages/*
+!packages/OneBuild.1.0.*
+!packages/Invoke-Build.2.9.*
+!packages/NuGet.CommandLine.2.7.*
+!packages/NUnit.Runners.2.6.*
+!packages/pester.3.0.0-beta2
+!packages/7zip.commandline.9.20.0.20130618
+buildoutput
+.vs/
+
+App_Data/
+bin/
+obj/
+_ReSharper*/
+
+
+# Files
+#######################
+*.suo
+*.lnk
+*.user
+*.swp
+*~
+*.log
+*.vssscc
+*.vspscc
+*.orig
+TestResult.xml
+TestResult_tests.*.xml
+TestResult_nunit_*.xml
+
+
+
+# OS generated files #
+################
+.DS_Store*
+Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
